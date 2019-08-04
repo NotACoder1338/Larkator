@@ -836,7 +836,7 @@ namespace LarkatorGUI
             {
                 StatusText = "ARK processing failed";
                 StatusDetailText = "";
-                MessageBox.Show(ex.Message, "ARK Tools Error", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                //MessageBox.Show(ex.Message, "ARK Tools Error", MessageBoxButton.OK, MessageBoxImage.Exclamation);
             }
             finally
             {
